@@ -1,6 +1,8 @@
 
 import java.util.*;
 
+import com.sun.tools.javac.util.List;
+
 /**
  * 
  */
@@ -20,12 +22,12 @@ public class Chat {
     /**
      * 
      */
-    public string message;
+    public String message;
 
     /**
      * 
      */
-    public list<string> keywords;
+    public List<String> keywords;
 
     /**
      * 

@@ -1,10 +1,12 @@
 
 import java.util.*;
 
+import com.sun.tools.javac.util.List;
+
 /**
  * 
  */
-public class Chat Manager {
+public class ChatManager {
 
     /**
      * Default constructor
@@ -15,7 +17,7 @@ public class Chat Manager {
     /**
      * 
      */
-    public list<int> childChatIDs;
+    public List<Integer> childChatIDs;
 
     /**
      * 

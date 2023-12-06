@@ -20,17 +20,17 @@ public class HealthAdviceResource {
     /**
      * 
      */
-    public list<string> keywords;
+    public List<String> keywords;
 
     /**
      * 
      */
-    public string category;
+    public String category;
 
     /**
      * 
      */
-    public string rubric;
+    public String rubric;
 
     /**
      * 

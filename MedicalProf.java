@@ -4,12 +4,12 @@ import java.util.*;
 /**
  * 
  */
-public class Medical Prof {
+public class MedicalProf {
 
     /**
      * Default constructor
      */
-    public Medical Prof() {
+    public MedicalProf() {
     }
 
     /**
@@ -20,16 +20,16 @@ public class Medical Prof {
     /**
      * 
      */
-    public string name;
+    public String name;
 
     /**
      * 
      */
-    public string jobrole;
+    public String jobrole;
 
     /**
      * 
      */
-    public string dept;
+    public String dept;
 
 }

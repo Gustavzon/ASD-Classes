@@ -15,17 +15,17 @@ public class HealthcareCenter {
     /**
      * 
      */
-    public string address;
+    public String address;
 
     /**
      * 
      */
-    public string name;
+    public String name;
 
     /**
      * 
      */
-    public string field;
+    public String field;
 
     /**
      * 

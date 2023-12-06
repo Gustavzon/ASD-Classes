@@ -1,15 +1,16 @@
 
+import java.io.File;
 import java.util.*;
 
 /**
  * 
  */
-public class Med Record {
+public class MedRecord {
 
     /**
      * Default constructor
      */
-    public Med Record() {
+    public MedRecord() {
     }
 
     /**
@@ -25,7 +26,7 @@ public class Med Record {
     /**
      * 
      */
-    public string description;
+    public String description;
 
     /**
      * 

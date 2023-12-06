@@ -20,7 +20,7 @@ public class User {
     /**
      * 
      */
-    public string name;
+    public String name;
 
     /**
      * 

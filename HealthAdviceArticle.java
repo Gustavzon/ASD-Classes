@@ -15,6 +15,6 @@ public class HealthAdviceArticle extends HealthAdviceResource {
     /**
      * 
      */
-    public string content;
+    public String content;
 
 }

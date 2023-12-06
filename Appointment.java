@@ -15,7 +15,7 @@ public class Appointment {
     /**
      * 
      */
-    private int id;
+    private Integer id;
 
     /**
      * 
@@ -25,6 +25,6 @@ public class Appointment {
     /**
      * 
      */
-    public string description;
+    public String description;
 
 }
