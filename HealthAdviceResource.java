@@ -1,49 +1,12 @@
-
 import java.util.*;
 
-/**
- * 
- */
-public class HealthAdviceResource {
+// Define the HealthAdviceResource class
+public abstract class HealthAdviceResource {
+    protected int id;
+    protected List<String> keywords;
+    protected String rubric;
 
-    /**
-     * Default constructor
-     */
-    public HealthAdviceResource() {
-    }
+    public abstract void open();
 
-    /**
-     * 
-     */
-    private int id;
-
-    /**
-     * 
-     */
-    public List<String> keywords;
-
-    /**
-     * 
-     */
-    public String category;
-
-    /**
-     * 
-     */
-    public String rubric;
-
-    /**
-     * 
-     */
-    public void open() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void closes() {
-        // TODO implement here
-    }
-
+    public abstract void close();
 }

@@ -1,35 +1,7 @@
-
-import java.util.*;
-
-/**
- * 
- */
+// Define the HealthcareCenter class
 public class HealthcareCenter {
-
-    /**
-     * Default constructor
-     */
-    public HealthcareCenter() {
-    }
-
-    /**
-     * 
-     */
-    public String address;
-
-    /**
-     * 
-     */
-    public String name;
-
-    /**
-     * 
-     */
-    public String field;
-
-    /**
-     * 
-     */
-    public int phoneNo;
-
+    private String address;
+    private String name;
+    private int fieldNo;
+    private String phoneNo;
 }

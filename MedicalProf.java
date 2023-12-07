@@ -1,35 +1,10 @@
-
-import java.util.*;
-
-/**
- * 
- */
-public class MedicalProf {
-
-    /**
-     * Default constructor
-     */
-    public MedicalProf() {
-    }
-
-    /**
-     * 
-     */
+public class MedicalProf<UserProfile, HealthcareCenter> {
     private int SSN;
+    private String name;
+    private String jobRole;
+    private String dept;
+    private UserProfile userProfile;
+    private HealthcareCenter healthCareCenter;
 
-    /**
-     * 
-     */
-    public String name;
-
-    /**
-     * 
-     */
-    public String jobrole;
-
-    /**
-     * 
-     */
-    public String dept;
-
+    // Constructors, getters, and setters not shown for brevity
 }

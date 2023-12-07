@@ -1,30 +1,25 @@
 
 import java.util.*;
 
-/**
- * 
- */
-public class Appointment {
+public class Appointment<UserProfile> {
+    private int id;
+    private Date timeCalendar;
+    private AppointmentStatus status;
+    private MedicalProf medicalProf;
+    private UserProfile userProfile;
 
-    /**
-     * Default constructor
-     */
-    public Appointment() {
+    public void book() {
+        // implementation code
     }
 
-    /**
-     * 
-     */
-    private Integer id;
+    public void cancel() {
+        // implementation code
+    }
 
-    /**
-     * 
-     */
-    public Date date;
-
-    /**
-     * 
-     */
-    public String description;
-
+    // Enumeration for AppointmentStatus
+    public enum AppointmentStatus {
+        Booked,
+        Cancelled,
+        Finished
+    }
 }

@@ -1,60 +1,21 @@
 
 import java.util.*;
 
-import com.sun.tools.javac.util.List;
+// Define the abstract Chat class
+public abstract class Chat {
+    protected int id;
+    protected String name;
+    protected List<String> messages;
 
-/**
- * 
- */
-public class Chat {
+    public abstract void open();
 
-    /**
-     * Default constructor
-     */
-    public Chat() {
-    }
+    public abstract void close();
 
-    /**
-     * 
-     */
-    private int id;
+    public abstract String getUserInput();
 
-    /**
-     * 
-     */
-    public String message;
+    public abstract void sendMessage(String message);
 
-    /**
-     * 
-     */
-    public List<String> keywords;
+    public abstract void receiveMessage(String message);
 
-    /**
-     * 
-     */
-    public void getUserInput() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void sendMessage() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void processMessage() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void displayMessage() {
-        // TODO implement here
-    }
-
+    public abstract void displayMessage(String message);
 }

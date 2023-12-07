@@ -1,36 +1,17 @@
 
 import java.util.*;
 
-import com.sun.tools.javac.util.List;
-
 /**
  * 
  */
 public class ChatManager {
+    private List<Chat> childChatList;
 
-    /**
-     * Default constructor
-     */
-    public Chat Manager() {
-    }
-
-    /**
-     * 
-     */
-    public List<Integer> childChatIDs;
-
-    /**
-     * 
-     */
     public void openChat() {
-        // TODO implement here
+        // implementation code
     }
 
-    /**
-     * 
-     */
     public void closeChat() {
-        // TODO implement here
+        // implementation code
     }
-
 }

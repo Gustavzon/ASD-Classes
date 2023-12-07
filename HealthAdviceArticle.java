@@ -1,20 +1,15 @@
 
 import java.util.*;
 
-/**
- * 
- */
+// Define the HealthAdviceArticle subclass
 public class HealthAdviceArticle extends HealthAdviceResource {
+    private String content;
 
-    /**
-     * Default constructor
-     */
-    public HealthAdviceArticle() {
-    }
+    @Override
+    public void open() {
+        /* implementation code */ }
 
-    /**
-     * 
-     */
-    public String content;
-
+    @Override
+    public void close() {
+        /* implementation code */ }
 }

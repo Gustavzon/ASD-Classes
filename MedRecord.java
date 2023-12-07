@@ -2,35 +2,10 @@
 import java.io.File;
 import java.util.*;
 
-/**
- * 
- */
+// Define the MedRecord class
 public class MedRecord {
-
-    /**
-     * Default constructor
-     */
-    public MedRecord() {
-    }
-
-    /**
-     * 
-     */
     private int id;
-
-    /**
-     * 
-     */
-    public Date date;
-
-    /**
-     * 
-     */
-    public String description;
-
-    /**
-     * 
-     */
-    public File additionalData;
-
+    private Date date;
+    private String description;
+    private File additionalData;
 }

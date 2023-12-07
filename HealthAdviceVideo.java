@@ -2,20 +2,15 @@
 import java.io.File;
 import java.util.*;
 
-/**
- * 
- */
+// Define the HealthAdviceVideo subclass
 public class HealthAdviceVideo extends HealthAdviceResource {
+    private File content;
 
-    /**
-     * Default constructor
-     */
-    public HealthAdviceVideo() {
-    }
+    @Override
+    public void open() {
+        /* implementation code */ }
 
-    /**
-     * 
-     */
-    public File content;
-
+    @Override
+    public void close() {
+        /* implementation code */ }
 }
